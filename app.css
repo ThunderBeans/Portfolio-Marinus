@@ -3,7 +3,6 @@
 body
 {
     font-family: "Montserrat", sans-serif;
-    height: 100vh;
 }
 
 .navbar-brand
@@ -16,16 +15,18 @@ body
   margin-left: 50%;
 }
 
-.hero-image {
-  background-image: linear-gradient(to right, rgba(105, 105, 105, 0.505), rgba(44, 44, 44, 0) ,rgba(0, 0, 0, 0.508)), url(img/bg.png);;
+
+.nav-image 
+{
+  background-image: linear-gradient(to right, rgba(40, 40, 40, 0.438), rgba(75, 75, 75, 0.479) ,rgba(0, 0, 0, 0.508)), url(img/dark.jpg);;
   height: 50vh;
-  background-size: cover;
-  background-position: center;
+  background-attachment:fixed;
+  margin-top: -50vh;
 }
 
 .hero-text {
-  text-align: center;
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 
   
